@@ -47,7 +47,7 @@ void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
     display.setCursor(0, 0);            // Start at top-left corner
     display.print("Temp:");
     display.println(temp);
-    display.print("Hum:");.
+    display.print("Hum:");
     display.println(hum);
     display.display();
   }
